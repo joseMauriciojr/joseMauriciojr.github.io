@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on José Mauricio</title>
+    <link>https://josemauriciojr.github.io/tags/</link>
+    <description>Recent content in Tags on José Mauricio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Apr 2021 02:04:06 -0500</lastBuildDate><atom:link href="https://josemauriciojr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Content</title>
+      <link>https://josemauriciojr.github.io/tags/content/</link>
+      <pubDate>Mon, 05 Apr 2021 02:04:06 -0500</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/tags/content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://josemauriciojr.github.io/tags/data-science/</link>
+      <pubDate>Mon, 05 Apr 2021 02:04:06 -0500</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Material</title>
+      <link>https://josemauriciojr.github.io/tags/material/</link>
+      <pubDate>Mon, 05 Apr 2021 02:04:06 -0500</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/tags/material/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://josemauriciojr.github.io/tags/python/</link>
+      <pubDate>Mon, 05 Apr 2021 02:04:06 -0500</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

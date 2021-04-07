@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>José Mauricio</title>
+    <link>https://josemauriciojr.github.io/</link>
+    <description>Recent content on José Mauricio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Apr 2021 02:04:06 -0500</lastBuildDate><atom:link href="https://josemauriciojr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The guide to the absolute Beginner in Data Science</title>
+      <link>https://josemauriciojr.github.io/posts/definitive_guide/</link>
+      <pubDate>Mon, 05 Apr 2021 02:04:06 -0500</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/posts/definitive_guide/</guid>
+      <description>Do you want to become a Data Scientist? In this series I&amp;rsquo;ll cover the basics to study data science here.
+What you need to know before going in Data Science&amp;rsquo;s bandwagon I like to think Data Science as a programming carrer, because most of your time you&amp;rsquo;ll be either learning about your data and the problem within it or you&amp;rsquo;ll be manipulating it, building machine learning (ML) models is not time consuming, and to be fair most of the time is an &amp;ldquo;experiment and try&amp;rdquo; thing, however ML has a deep mathematical theory behind it, and if you want to be a good data scientist you&amp;rsquo;ll need to develop a fair comprehension about the field.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://josemauriciojr.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/about/</guid>
+      <description>I&amp;rsquo;m a data scientist currently located in Brazil, São Paulo. From my set of skills I can highlight:
+ Data Analyzing and Data Management (Python, R) Data Warehouse consulting and management (SQL, noSQL) Machine Learning model development, deployment, verifying and debugging (Python) Debugging and developing ETL jobs (Python) Experience with development environment (github and docker) Experience with Cloud Services (Amazon S3, Google Cloud, Airflow and Jenkins) Experience reading through library&amp;rsquo;s documentations Experience applying Machine Learning models to solve marketing and fraud problems   Work Experience  2018 - 2019 :: Business Inteligence Internship at evino</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://josemauriciojr.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/contact/</guid>
+      <description>Want to Contact? The main page has all my professional social media, you can mail me here or message me on Linkedln.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://josemauriciojr.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/projects/</guid>
+      <description>Datasets  mRNA dataset from patients with lung cancer A dataset I used in my undergrad thesis, click here! Disclaimer: I did not collect any of these data
+    Kaggle Competitions Entry  [Data Analysis] 2020 Kaggle Machine Learning &amp;amp; Data Science Survey A exploratory data analysis where I investigated the difference between male and female data scientists and kaggle enthusiasts. Click here!
+    [Machine Learning] Tabular playground Series A generic dataset and regression problem.</description>
+    </item>
+    
+  </channel>
+</rss>

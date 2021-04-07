@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>José Mauricio</title>
+    <link>https://josemauriciojr.github.io/pt-br/</link>
+    <description>Recent content on José Mauricio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 01 Apr 2021 02:04:06 -0500</lastBuildDate><atom:link href="https://josemauriciojr.github.io/pt-br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O guia para iniciantes em Ciências de Dados</title>
+      <link>https://josemauriciojr.github.io/pt-br/posts/definitive_guide/</link>
+      <pubDate>Thu, 01 Apr 2021 02:04:06 -0500</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/pt-br/posts/definitive_guide/</guid>
+      <description>Iniciarei uma série de posts com todo o material que encontro sobre Data Science. Este primeiro post focarei em um público específico pessoas que ainda estão descobrindo a área e aprendendo o básico. Todo conteúdo postado aqui está em inglês, alguns possuem legendas e traduções, mas a grande maioria não. Existem algumas bibliotecas importantes para se aprender, no entanto, como não vou focar em uma linguagem de programação específica, o próprio leitor ao explorar o material aqui irá encontrar diversas bibliotecas interessantes tanto para Python como para R (linguagens mais populares).</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://josemauriciojr.github.io/pt-br/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/pt-br/contact/</guid>
+      <description>Me contate A página principal possui todas as minhas informações, mas você pode me mandar um e-mail ou mandar uma mensagem no linkedln.</description>
+    </item>
+    
+    <item>
+      <title>Projetos</title>
+      <link>https://josemauriciojr.github.io/pt-br/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/pt-br/projects/</guid>
+      <description>Datasets  mRNA dataset de pacientes com câncer de pulmão A dataset que usei para o meu TCC, click aqui! Aviso: não sou responsável e nem participei pela coleta de dados
+    Competições Kaggle  [Análise de Dados] 2020 Kaggle Machine Learning &amp;amp; Data Science Survey Competição para criar uma narrativa e explorar dados, eu foquei na diferença entre generos dentro da comunidade de entusiastas do Kaggle. Click here!</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://josemauriciojr.github.io/pt-br/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/pt-br/about/</guid>
+      <description>Sou cientista de dados atualmente trabalho em Brasil, São Paulo. As minhas habilidades mais relevantes são:
+ Análise e manipulação de dados (Python, R) Data Warehouse, consulta e administração (SQL, noSQL) Machine Learning, desenvolvimento de modelos, deployment, diagnóstico e debugging (Python) Desenvolvimento e debugging de ETLs (Python) Experiência em ambiente de desenvolvimento (github e docker) Experiência em serviços de Cloud (Amazon S3, Google Cloud, Airflow e Jenkins) Experiência em ler documentação Aplicação de modelos de Machine Learning para solucionar (ou otimizar) problemas em marketing e fraude   Experiência de Trabalho  2018 - 2019 :: Estágio em Business Inteligence em evino</description>
+    </item>
+    
+  </channel>
+</rss>

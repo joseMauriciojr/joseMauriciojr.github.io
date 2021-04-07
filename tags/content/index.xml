@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content on José Mauricio</title>
+    <link>https://josemauriciojr.github.io/tags/content/</link>
+    <description>Recent content in Content on José Mauricio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Apr 2021 02:04:06 -0500</lastBuildDate><atom:link href="https://josemauriciojr.github.io/tags/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The guide to the absolute Beginner in Data Science</title>
+      <link>https://josemauriciojr.github.io/posts/definitive_guide/</link>
+      <pubDate>Mon, 05 Apr 2021 02:04:06 -0500</pubDate>
+      
+      <guid>https://josemauriciojr.github.io/posts/definitive_guide/</guid>
+      <description>Do you want to become a Data Scientist? In this series I&amp;rsquo;ll cover the basics to study data science here.
+What you need to know before going in Data Science&amp;rsquo;s bandwagon I like to think Data Science as a programming carrer, because most of your time you&amp;rsquo;ll be either learning about your data and the problem within it or you&amp;rsquo;ll be manipulating it, building machine learning (ML) models is not time consuming, and to be fair most of the time is an &amp;ldquo;experiment and try&amp;rdquo; thing, however ML has a deep mathematical theory behind it, and if you want to be a good data scientist you&amp;rsquo;ll need to develop a fair comprehension about the field.</description>
+    </item>
+    
+  </channel>
+</rss>

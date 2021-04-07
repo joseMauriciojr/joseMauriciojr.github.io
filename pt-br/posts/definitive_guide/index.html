@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="José Mauricio">
+    <meta name="description" content="https://josemauriciojr.github.io/">
+    <meta name="keywords" content="blog,desenvolvedor,data scence">
+
+    <meta property="og:site_name" content="José Mauricio">
+    <meta property="og:title" content="
+  O guia para iniciantes em Ciências de Dados - José Mauricio
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://josemauriciojr.github.io/pt-br/posts/definitive_guide/">
+    <meta property="og:image" content="https://josemauriciojr.github.io/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://josemauriciojr.github.io/pt-br/posts/definitive_guide/">
+    <meta name="twitter:image" content="https://josemauriciojr.github.io/">
+
+    <base href="https://josemauriciojr.github.io/pt-br/posts/definitive_guide/">
+    <title>
+  O guia para iniciantes em Ciências de Dados - José Mauricio
+</title>
+
+    <link rel="canonical" href="https://josemauriciojr.github.io/pt-br/posts/definitive_guide/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="https://josemauriciojr.github.io/css/normalize.min.css">
+    <link rel="stylesheet" href="https://josemauriciojr.github.io/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://josemauriciojr.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://josemauriciojr.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://josemauriciojr.github.io/pt-br/index.xml" type="application/rss+xml" title="José Mauricio">
+      <link href="https://josemauriciojr.github.io/pt-br/index.xml" rel="feed" type="application/rss+xml" title="José Mauricio" />
+    
+
+    <meta name="generator" content="Hugo 0.82.0" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://josemauriciojr.github.io/pt-br/">José Mauricio</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://josemauriciojr.github.io/pt-br/about">Sobre</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://josemauriciojr.github.io/pt-br/posts">Posts</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://josemauriciojr.github.io/pt-br/projects">Projetos</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://josemauriciojr.github.io/pt-br/contact">Contato</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            <li class= " mobile-menu-lang-separator-centered ">
+              <hr />
+            </li>
+          
+          
+            
+              
+                
+                  <li class="multilingual-separator">
+                    <p>|</p>
+                  </li>
+                
+                
+              
+              <li class="navigation-item  align-center ">
+                <a href="https://josemauriciojr.github.io/">English</a>
+              </li>
+            
+          
+            
+          
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">O guia para iniciantes em Ciências de Dados</h1>
+      <h2 class="date">April 1, 2021</h2>
+
+      
+    </header>
+
+    <p>Iniciarei uma série de posts com todo o material que encontro sobre Data Science. Este primeiro post focarei em um público específico pessoas que ainda estão descobrindo a área e aprendendo o básico. Todo conteúdo postado aqui está em inglês, alguns possuem legendas e traduções, mas a grande maioria não. Existem algumas bibliotecas importantes para se aprender, no entanto, como não vou focar em uma linguagem de programação específica, o próprio leitor ao explorar o material aqui irá encontrar diversas bibliotecas interessantes tanto para Python como para R (linguagens mais populares).</p>
+<h2 id="o-que-você-precisa-saber-antes-de-entrar-em-da-data-science">O que você precisa saber antes de entrar em da Data Science</h2>
+<p>Gosto de pensar que a ciência de dados é uma carreira de programação, porque na maior parte do tempo você estudará sobre seus dados e o problema dentro deles, ou irá manipular, construir <strong>modelos de aprendizado de máquina (ML)</strong> não consome muito tempo e, para ser sincero, na maioria das vezes é uma coisa de &ldquo;experimentar e tentar&rdquo;, no entanto ML tem uma teoria matemática complexa, e se você quiser ser um bom cientista de dados precisará desenvolver ao menos uma compreensão sobre o campo. Então antes de qualquer coisa gosto de listar o básico do básico, a linguagem de programação mais usada é python e R, escolha a que te fazer sentir mais confortável.</p>
+<p>Este conteúdo é bastante fácil de encontrar na internet, porém postarei algumas coisas que considero bem produtivas aqui.</p>
+<h3 id="programação">Programação</h3>
+<p>É importante que além de estudar o básico de Python ou R, você também tenha em mente boas práticas de programação, aconselho também a desenvolver uma familiaridade com Programação Orientada a Objetos, principalmente para conteúdo de Deep Learning mais avançado. Eu também aconselharia você a aprender SQL porque é uma linguagem de programação fácil e muito importante para o mercado.</p>
+<p><strong>Web-Course</strong></p>
+<ul>
+<li><a href="https://www.dataquest.io/">https://www.dataquest.io/</a></li>
+<li><a href="https://www.freecodecamp.org/">https://www.freecodecamp.org/</a></li>
+<li><a href="https://www.dataschool.io/python-quick-reference/">https://www.dataschool.io/python-quick-reference/</a></li>
+</ul>
+<p>Se você quer um desafio te aconselho a ir em</p>
+<ul>
+<li><a href="https://www.codewars.com/">https://www.codewars.com/</a></li>
+</ul>
+<p><strong>Livros</strong></p>
+<blockquote>
+<p>Fluent Python (Luciano Ramalho)</p>
+</blockquote>
+<h3 id="algebra-linear">Algebra Linear</h3>
+<p>Este conteúdo é bastante fácil de encontrar na internet
+Os principais tópicos a aprender aqui são: vetores, matrizes e operações básicas, matrizes de fatoração, transpostas e inversas, projeções, vetores e matrizes ortogonais, determinantes, vetores próprios e valores próprios, inversa de matrizes.</p>
+<p><strong>Web-Course e Videos</strong></p>
+<blockquote>
+<p>Esta é uma explicação introdutória e mais acessível</p>
+</blockquote>
+<ul>
+<li><a href="https://www.khanacademy.org/math/linear-algebra">https://www.khanacademy.org/math/linear-algebra</a></li>
+</ul>
+<blockquote>
+<p>Conteúdo mais complexo e academico:</p>
+</blockquote>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=7UJ4CFRGd-U&amp;list=PLE7DDD91010BC51F8">https://www.youtube.com/watch?v=7UJ4CFRGd-U&amp;list=PLE7DDD91010BC51F8</a></li>
+</ul>
+<p><strong>Livros</strong></p>
+<blockquote>
+<p><a href="http://joshua.smcvt.edu/linearalgebra/">http://joshua.smcvt.edu/linearalgebra/</a></p>
+</blockquote>
+<h3 id="cálculo-básico">Cálculo Básico</h3>
+<p>Os principais tópicos a aprender aqui são: funções, limites, derivadas, continuidade de funções, otimização de funções e Integral. Tenha em mente que a parte importante é saber o que é uma derivada, o que é um limite, o que você faz para encontrar o ponto de otimização de uma função e coisas do tipo, e não se trata de encontrar a derivada / integral de alguma função enorme</p>
+<p><strong>Web-Course e Videos</strong></p>
+<blockquote>
+<p>Esta é uma explicação introdutória e mais acessível</p>
+</blockquote>
+<ul>
+<li><a href="https://www.khanacademy.org/math/calculus-1">https://www.khanacademy.org/math/calculus-1</a></li>
+</ul>
+<blockquote>
+<p>Conteúdo mais complexo e academico:</p>
+</blockquote>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=7K1sB05pE0A&amp;list=PL590CCC2BC5AF3BC1">https://www.youtube.com/watch?v=7K1sB05pE0A&amp;list=PL590CCC2BC5AF3BC1</a></li>
+</ul>
+<p><strong>Livros</strong></p>
+<blockquote>
+<p>Calculo (James Stewart)</p>
+</blockquote>
+<h3 id="estatística-e-probabilidade">Estatística e probabilidade</h3>
+<p>Este assunto e programação são áreas realmente vastas que você continuará estudando todos os dias, coisas que você terá que saber: testes estatísticos, estatísticas inferenciais e distribuições.</p>
+<p><strong>Web-Course e Videos</strong></p>
+<blockquote>
+<p>Esta é uma explicação introdutória e mais acessível</p>
+</blockquote>
+<ul>
+<li><a href="https://khanacademy.org/math/statistics-probability">https://khanacademy.org/math/statistics-probability</a></li>
+<li><a href="https://www.youtube.com/watch?v=xxpc-HPKN28">https://www.youtube.com/watch?v=xxpc-HPKN28</a></li>
+</ul>
+<blockquote>
+<p>Conteúdo mais complexo e academico:</p>
+</blockquote>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0">https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0</a></li>
+</ul>
+<p><strong>Livros</strong></p>
+<blockquote>
+<p>Elementary Statistics - A step by step approach (Allan G. Bluman)
+Probability and Statistics (Morris H. DeGroot)</p>
+</blockquote>
+<p>Alguns posts podem aconselhá-lo a simplesmente ignorar a teoria por trás disso e pular para tutoriais que ensinam como fazer algumas coisas realmente básicas, como:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">RandomForestClassifier</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;dataset_lindo_e_bonito_que_nunca_vai_existir_na_vida_real.csv&#39;</span><span class="p">)</span>
+<span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span>  <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">clf</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">()</span>
+<span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="c1">#Funciona!!!</span>
+</code></pre></div><p>No entanto, uma parte importante do trabalho é entender como começar com um banco de dados confuso e desenvolver o produto final. Esse tipo de tutorial pode ser útil para ensinar sobre codificação, mas é muito superficial sobre a solução de problemas (que é o assunto da Data Science). Na minha opinião, pode ser muito mais útil conhecer cerca de 2 a 3 modelos e ter uma &ldquo;caixa de ferramentas de ML&rdquo; que você pode usar para compreender um problema e desenvolver alguma solução bem arredondada.</p>
+<h2 id="introdução-a-ciência-de-dados">Introdução a Ciência de dados</h2>
+<p>Depois de saber o que é um teste estatístico e como funciona a otimização de uma função, você pode começar com este material.</p>
+<p><strong>An Introduction to Statistical Learning</strong></p>
+<p>Este é provavelmente o melhor livro para introduzir alguém no assunto (e é o meu favorito), ele tem muitos recursos online. O livro se concentra principalmente na aplicação em R, mas eu sugiro fortemente que você continue com este livro mesmo se você preferir Python.</p>
+<ol>
+<li><a href="https://www.statlearning.com/s/ISLRSeventhPrinting.pdf">O livro você encontra aqui</a></li>
+<li><a href="https://www.statlearning.com/resources-first-edition">Dados e códigos usados no livro</a></li>
+<li><a href="https://www.youtube.com/watch?v=5N9V07EIfIg&amp;list=PLOg0ngHtcqbPTlZzRHA2ocQZqB1D_qZ5V">Aulas online com os próprios escritores</a></li>
+</ol>
+<p><strong>Data Science from Scratch: First Principles with Python</strong> (Joel Grus)</p>
+<p>Este livro implementa uma série de algoritmos de ML do ZERO, não é exatamente um livro de introdução, mas o ajudará a melhorar suas habilidades de programação enquanto ensina algumas noções básicas de ciência de dados. Infelizmente, não há recursos online para este livro, apenas certifique-se de pesquisar e procurar bastante pelo pdf<a href="http://math.ecnu.edu.cn/~lfzhou/seminar/%5BJoel_Grus%5D_Data_Science_from_Scratch_First_Princ.pdf">!</a></p>
+<p><strong>Coursera</strong></p>
+<p>Uma plataforma online fundada por Daphne Koller e Andrew Ng que é um dos nomes mais influentes na comunidade de Data Science. Todos os cursos podem ser frequentados gratuitamente, mas sem certificação. Os mais importantes são:</p>
+<ol>
+<li><a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a></li>
+<li><a href="https://www.coursera.org/specializations/deep-learning#courses">Todos os cursos sobre Deep learning da Deeplearning.ai</a></li>
+</ol>
+<p><strong><a href="https://www.kaggle.com/">Kaggle</a></strong></p>
+<p>Kaggle é uma comunidade gigantesca de ciência de dados e você pode encontrar os mais diversos conteúdos lá, desde um guia para iniciantes até técnicas avançadas muito específicas. E eles TAMBÉM têm alguns cursos úteis explicando o básico de um tema complexo.</p>
+<h2 id="conclusão">Conclusão</h2>
+<p>Espero que se você for um iniciante ou um cientista de dados júnior possa encontrar material útil para estudar ao longo deste post. Pretendo transformar isso em uma série com conteúdo mais avançado, então nos vemos em breve :)</p>
+
+  </article>
+
+  <br/>
+
+  
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f&ref_src=twsrc%5Etfw&text=O%20guia%20para%20iniciantes%20em%20Ci%c3%aancias%20de%20Dados Jos%c3%a9%20Mauricio&tw_p=tweetbutton&url=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        
+        
+          <a class="sns-share hatena-share" href="http://b.hatena.ne.jp/entry/https://josemauriciojr.github.io/pt-br/posts/definitive_guide/"  data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="40" data-hatena-bookmark-height="40" title="このエントリーをはてなブックマークに追加"><i class="fas fa-bookmark"></i></a>
+        
+        
+          <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f"><i class="fab fa-line"></i></a>
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+    
+     © 2021    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/naro143/hugo-coder-portfolio">CoderPortfolio</a>. 
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Do you want to Share? Go in and <a id="privateTrigger">Click!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f&ref_src=twsrc%5Etfw&text=O%20guia%20para%20iniciantes%20em%20Ci%c3%aancias%20de%20Dados Jos%c3%a9%20Mauricio&tw_p=tweetbutton&url=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        
+        
+          <a class="sns-share hatena-share" href="http://b.hatena.ne.jp/entry/https://josemauriciojr.github.io/pt-br/posts/definitive_guide/"  data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="40" data-hatena-bookmark-height="40" title="このエントリーをはてなブックマークに追加"><i class="fas fa-bookmark"></i></a>
+        
+        
+          <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f"><i class="fab fa-line"></i></a>
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fjosemauriciojr.github.io%2fpt-br%2fposts%2fdefinitive_guide%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="https://josemauriciojr.github.io/js/app.js"></script>
+  
+  </body>
+</html>
